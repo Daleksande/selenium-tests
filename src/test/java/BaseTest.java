@@ -45,6 +45,10 @@ public class BaseTest {
         wait.until(ExpectedConditions.visibilityOf(element)).isDisplayed();
     }
 
+    public void isEnabled (WebElement element) {
+        wait.until(ExpectedConditions.visibilityOf(element)).isEnabled();
+    }
+
     public void fillField(WebElement element, String value) {
         element.clear();
         element.sendKeys(value);
