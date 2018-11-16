@@ -1,0 +1,11 @@
+ru\raiffeisen\steps\DepositListSteps.class
+ru\raiffeisen\steps\MainSteps.class
+ru\raiffeisen\annotation\FieldName.class
+ru\raiffeisen\pages\BasePageObject.class
+ru\raiffeisen\steps\DepositSteps.class
+ru\raiffeisen\util\DriverManager.class
+ru\raiffeisen\pages\DepositListPage.class
+ru\raiffeisen\pages\MainPage.class
+ru\raiffeisen\steps\BaseSteps.class
+ru\raiffeisen\util\TestProperties.class
+ru\raiffeisen\pages\DepositPage.class
