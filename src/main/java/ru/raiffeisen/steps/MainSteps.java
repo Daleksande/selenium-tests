@@ -6,6 +6,7 @@ public class MainSteps {
 
     MainPage mainPage = new MainPage();
 
+    @When("выбран пункт меню \"(.*)"")
     public void selectMenuItem(String itemName){
         mainPage.selectMenuItem(mainPage.mainMenu, itemName);
     }
