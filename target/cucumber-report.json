@@ -1,0 +1,86 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: ru"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14563349065,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.startScenario()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Оформление страховки",
+        "description": "",
+        "id": "страхование;оформление-страховки",
+        "after": [
+          {
+            "result": {
+              "duration": 1007219186,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Сценарий",
+        "steps": [
+          {
+            "result": {
+              "duration": 716849772,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "подтвержден регион",
+            "match": {
+              "location": "MainSteps.acceptRegion()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 357200071,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "выбран пункт меню \"Страхование\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Страхование",
+                  "offset": 19
+                }
+              ],
+              "location": "MainSteps.selectMenuItem(String)"
+            },
+            "keyword": "* "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@web"
+          }
+        ]
+      }
+    ],
+    "name": "Страхование",
+    "description": "",
+    "id": "страхование",
+    "keyword": "Функционал",
+    "uri": "insurance.feature"
+  }
+]

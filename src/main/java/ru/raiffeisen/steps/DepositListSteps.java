@@ -1,18 +1,17 @@
 package ru.raiffeisen.steps;
 
+import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import ru.raiffeisen.pages.DepositListPage;
 
-/**
- * Created by mbaykova on 14.11.2018
- */
+
 public class DepositListSteps {
 
     DepositListPage depositListPage = new DepositListPage();
 
-
+    @When("выбран вклад \"(.*)\"")
     public void openDeposit(String depositName){
         for (WebElement item : depositListPage.depositCollection ){
             if (item.findElement(By.xpath(".//p")).getText().contains(depositName)){

@@ -1,6 +1,5 @@
 package ru.raiffeisen.pages;
 
-
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -18,6 +17,7 @@ public class BasePageObject {
     public BasePageObject() {
         PageFactory.initElements(DriverManager.getDriver(), this);
     }
+
 
     public void fillField(WebElement field, String value){
         JavascriptExecutor js = (JavascriptExecutor) DriverManager.getDriver();

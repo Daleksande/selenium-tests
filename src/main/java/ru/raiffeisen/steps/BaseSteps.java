@@ -1,9 +1,12 @@
 package ru.raiffeisen.steps;
 
 
-import org.junit.After;
-import org.junit.Before;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
+import cucumber.api.java.en.When;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import ru.raiffeisen.pages.BasePageObject;
 import ru.raiffeisen.util.DriverManager;
 import ru.raiffeisen.util.TestProperties;
 
@@ -13,6 +16,8 @@ import java.util.concurrent.TimeUnit;
 public class BaseSteps {
 
     public static Properties properties = TestProperties.getInstance().getProperties();
+
+    BasePageObject basePageObject = new BasePageObject();
 
     @Before
     public void startScenario() {
@@ -24,7 +29,8 @@ public class BaseSteps {
     }
 
     @After
-    public void afterScenario() {
-
+    public void afterMethod() {
+        DriverManager.quitDriver();
     }
+
 }
