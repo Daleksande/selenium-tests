@@ -10,4 +10,8 @@ public class DepositListPage extends BasePageObject {
     @FindBy(xpath = "//div[@class='b-card__content']")
     public List<WebElement> depositCollection;
 
+    @Override
+    public WebElement getField(String name) throws Exception {
+        return getField(name, "ru.raiffeisen.pages.DepositListPage");
+    }
 }

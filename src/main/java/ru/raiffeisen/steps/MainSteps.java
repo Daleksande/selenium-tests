@@ -12,19 +12,9 @@ public class MainSteps {
         mainPage.selectMenuItem(mainPage.mainMenu, itemName);
     }
 
-    @When("выбран подпункт меню \"(.*)\"")
-    public void selectSubMenuItem(String itemName){
-        mainPage.selectMenuItem(mainPage.subMenu, itemName);
-    }
-
     @When("подтвержден регион")
     public void acceptRegion() {
         mainPage.click(mainPage.acceptRegion);
     }
-
-//    @When("выполнено нажатие на \"(.*)\"")
-//    public void click(String name) throws Exception {
-//        mainPage.click(name);
-//    }
 
 }

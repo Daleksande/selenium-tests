@@ -12,7 +12,7 @@
         "before": [
           {
             "result": {
-              "duration": 14563349065,
+              "duration": 10641110332,
               "status": "passed"
             },
             "match": {
@@ -27,7 +27,7 @@
         "after": [
           {
             "result": {
-              "duration": 1007219186,
+              "duration": 793071060,
               "status": "passed"
             },
             "match": {
@@ -40,10 +40,28 @@
         "steps": [
           {
             "result": {
-              "duration": 716849772,
+              "duration": 89081565,
               "status": "passed"
             },
             "line": 7,
+            "name": "загружена страница \"MainPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MainPage",
+                  "offset": 20
+                }
+              ],
+              "location": "ScenarioSteps.stepPageLoaded(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 357023146,
+              "status": "passed"
+            },
+            "line": 8,
             "name": "подтвержден регион",
             "match": {
               "location": "MainSteps.acceptRegion()"
@@ -52,10 +70,10 @@
           },
           {
             "result": {
-              "duration": 357200071,
+              "duration": 196253192,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "выбран пункт меню \"Страхование\"",
             "match": {
               "arguments": [
@@ -65,6 +83,294 @@
                 }
               ],
               "location": "MainSteps.selectMenuItem(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 4171231802,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "выполнено нажатие на \"В путешествие\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "В путешествие",
+                  "offset": 22
+                }
+              ],
+              "location": "ScenarioSteps.click(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 60871,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "загружена страница \"VbcPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "VbcPage",
+                  "offset": 20
+                }
+              ],
+              "location": "ScenarioSteps.stepPageLoaded(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 2839678328,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "выполнено нажатие на \"Оставить заявку\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Оставить заявку",
+                  "offset": 22
+                }
+              ],
+              "location": "ScenarioSteps.click(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 224671410,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "проверяю, что элемент \"Заголовок\" содержит текст \"Форма заявки на страховую программу\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Заголовок",
+                  "offset": 23
+                },
+                {
+                  "val": "Форма заявки на страховую программу",
+                  "offset": 50
+                }
+              ],
+              "location": "ScenarioSteps.checkText(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 104444378,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "проверяю, что элемент \"Продукт\" содержит текст \"Вояж (Комфорт/Бизнес класс/Первый класс)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Продукт",
+                  "offset": 23
+                },
+                {
+                  "val": "Вояж (Комфорт/Бизнес класс/Первый класс)",
+                  "offset": 48
+                }
+              ],
+              "location": "ScenarioSteps.checkText(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 177319469,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "поле \"Фамилия\" заполняется значением \"Волынин\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Фамилия",
+                  "offset": 6
+                },
+                {
+                  "val": "Волынин",
+                  "offset": 38
+                }
+              ],
+              "location": "ScenarioSteps.fillField(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 118945896,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "поле \"Имя\" заполняется значением \"Илья\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Имя",
+                  "offset": 6
+                },
+                {
+                  "val": "Илья",
+                  "offset": 34
+                }
+              ],
+              "location": "ScenarioSteps.fillField(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 152555217,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "поле \"Отчество\" заполняется значением \"Павлович\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Отчество",
+                  "offset": 6
+                },
+                {
+                  "val": "Павлович",
+                  "offset": 39
+                }
+              ],
+              "location": "ScenarioSteps.fillField(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 181032600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "поле \"Дата рождения\" заполняется значением \"01.01.1986\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Дата рождения",
+                  "offset": 6
+                },
+                {
+                  "val": "01.01.1986",
+                  "offset": 44
+                }
+              ],
+              "location": "ScenarioSteps.fillField(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 194237623,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "поле \"Номер телефона\" заполняется значением \"9031234567\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Номер телефона",
+                  "offset": 6
+                },
+                {
+                  "val": "9031234567",
+                  "offset": 45
+                }
+              ],
+              "location": "ScenarioSteps.fillField(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 185033018,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "поле \"Электронная почта\" заполняется значением \"test@test.ru\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Электронная почта",
+                  "offset": 6
+                },
+                {
+                  "val": "test@test.ru",
+                  "offset": 48
+                }
+              ],
+              "location": "ScenarioSteps.fillField(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 119825965,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "поле \"Проверочный код\" заполняется значением \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Проверочный код",
+                  "offset": 6
+                },
+                {
+                  "val": "test",
+                  "offset": 46
+                }
+              ],
+              "location": "ScenarioSteps.fillField(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 111637395,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "выполнено нажатие на \"Согласие на обработку данных\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Согласие на обработку данных",
+                  "offset": 22
+                }
+              ],
+              "location": "ScenarioSteps.click(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 30304082,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "проверяю, что элемент \"Отправить\" доступен",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Отправить",
+                  "offset": 23
+                }
+              ],
+              "location": "ScenarioSteps.checkIsEnabled(String)"
             },
             "keyword": "* "
           }

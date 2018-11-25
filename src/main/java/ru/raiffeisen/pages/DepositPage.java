@@ -68,16 +68,9 @@ public class DepositPage extends BasePageObject {
         click(element);
     }
 
+    @Override
     public WebElement getField(String name) throws Exception {
-        Class example = Class.forName("ru.raiffeisen.pages.DepositPage");
-        List<Field> fields = Arrays.asList(example.getFields());
-        for (Field field : fields){
-            if (field.getAnnotation(FieldName.class).name().equals(name)){
-                return DriverManager.getDriver().findElement(By.xpath(field.getAnnotation(FindBy.class).xpath()));
-            }
-        }
-        Assert.fail("Не объявлен элемент с наименованием " + name);
-        return null;
+        return getField(name, "ru.raiffeisen.pages.DepositPage");
     }
 
 }

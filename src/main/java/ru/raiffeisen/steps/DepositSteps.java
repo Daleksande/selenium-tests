@@ -16,7 +16,7 @@ public class DepositSteps {
     DepositPage depositPage = new DepositPage();
 
 
-    @When("поле \"(.*)\" заполняется значением \"(.*)\"")
+    @When("depricated поле \"(.*)\" заполняется значением \"(.*)\"")
     public void fillField(String name, String value) throws Exception {
         depositPage.fillField(name, value);
     }
@@ -29,11 +29,6 @@ public class DepositSteps {
     @When("поле \"(.*)\" доступно")
     public void checkIsEnabled(String name) throws Exception {
         Assert.assertTrue("Кнопка - "+ name +" не активна", depositPage.getField(name).isEnabled());
-    }
-
-    @When("выполнено нажатие на \"(.*)\"")
-    public void click(String name) throws Exception {
-        depositPage.click(name);
     }
 
     @When("выпадающий список \"(.*)\" заполняется значением \"(.*)\"")

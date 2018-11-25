@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberRunner" time="17.304" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberRunner" time="21.082" tests="18" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.5"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
     <property name="java.vm.version" value="25.181-b13"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\git\selenium-tests"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\git\my_selenium_tests"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\git\selenium-tests"/>
+    <property name="user.dir" value="D:\git\my_selenium_tests"/>
     <property name="java.runtime.version" value="1.8.0_181-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
@@ -62,7 +62,22 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="* подтвержден регион" classname="Сценарий: Оформление страховки" time="0.003"/>
+  <testcase name="* загружена страница &quot;MainPage&quot;" classname="Сценарий: Оформление страховки" time="0.002"/>
+  <testcase name="* подтвержден регион" classname="Сценарий: Оформление страховки" time="0"/>
   <testcase name="* выбран пункт меню &quot;Страхование&quot;" classname="Сценарий: Оформление страховки" time="0"/>
-  <testcase name="Сценарий: Оформление страховки" classname="Сценарий: Оформление страховки" time="1.007"/>
+  <testcase name="* выполнено нажатие на &quot;В путешествие&quot;" classname="Сценарий: Оформление страховки" time="0"/>
+  <testcase name="* загружена страница &quot;VbcPage&quot;" classname="Сценарий: Оформление страховки" time="0"/>
+  <testcase name="* выполнено нажатие на &quot;Оставить заявку&quot;" classname="Сценарий: Оформление страховки" time="0"/>
+  <testcase name="* проверяю, что элемент &quot;Заголовок&quot; содержит текст &quot;Форма заявки на страховую программу&quot;" classname="Сценарий: Оформление страховки" time="0"/>
+  <testcase name="* проверяю, что элемент &quot;Продукт&quot; содержит текст &quot;Вояж (Комфорт/Бизнес класс/Первый класс)&quot;" classname="Сценарий: Оформление страховки" time="0"/>
+  <testcase name="* поле &quot;Фамилия&quot; заполняется значением &quot;Волынин&quot;" classname="Сценарий: Оформление страховки" time="0"/>
+  <testcase name="* поле &quot;Имя&quot; заполняется значением &quot;Илья&quot;" classname="Сценарий: Оформление страховки" time="0"/>
+  <testcase name="* поле &quot;Отчество&quot; заполняется значением &quot;Павлович&quot;" classname="Сценарий: Оформление страховки" time="0"/>
+  <testcase name="* поле &quot;Дата рождения&quot; заполняется значением &quot;01.01.1986&quot;" classname="Сценарий: Оформление страховки" time="0"/>
+  <testcase name="* поле &quot;Номер телефона&quot; заполняется значением &quot;9031234567&quot;" classname="Сценарий: Оформление страховки" time="0"/>
+  <testcase name="* поле &quot;Электронная почта&quot; заполняется значением &quot;test@test.ru&quot;" classname="Сценарий: Оформление страховки" time="0"/>
+  <testcase name="* поле &quot;Проверочный код&quot; заполняется значением &quot;test&quot;" classname="Сценарий: Оформление страховки" time="0"/>
+  <testcase name="* выполнено нажатие на &quot;Согласие на обработку данных&quot;" classname="Сценарий: Оформление страховки" time="0"/>
+  <testcase name="* проверяю, что элемент &quot;Отправить&quot; доступен" classname="Сценарий: Оформление страховки" time="0"/>
+  <testcase name="Сценарий: Оформление страховки" classname="Сценарий: Оформление страховки" time="0.793"/>
 </testsuite>

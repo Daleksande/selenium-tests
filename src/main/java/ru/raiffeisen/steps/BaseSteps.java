@@ -17,8 +17,6 @@ public class BaseSteps {
 
     public static Properties properties = TestProperties.getInstance().getProperties();
 
-    BasePageObject basePageObject = new BasePageObject();
-
     @Before
     public void startScenario() {
         WebDriver driver = DriverManager.getDriver();
