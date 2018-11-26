@@ -13,7 +13,7 @@ formatter.feature({
   "keyword": "Функционал"
 });
 formatter.before({
-  "duration": 10641110332,
+  "duration": 10686269780,
   "status": "passed"
 });
 formatter.scenario({
@@ -125,14 +125,14 @@ formatter.match({
   "location": "ScenarioSteps.stepPageLoaded(String)"
 });
 formatter.result({
-  "duration": 89081565,
+  "duration": 303821333,
   "status": "passed"
 });
 formatter.match({
   "location": "MainSteps.acceptRegion()"
 });
 formatter.result({
-  "duration": 357023146,
+  "duration": 465491269,
   "status": "passed"
 });
 formatter.match({
@@ -145,7 +145,7 @@ formatter.match({
   "location": "MainSteps.selectMenuItem(String)"
 });
 formatter.result({
-  "duration": 196253192,
+  "duration": 219557678,
   "status": "passed"
 });
 formatter.match({
@@ -158,7 +158,7 @@ formatter.match({
   "location": "ScenarioSteps.click(String)"
 });
 formatter.result({
-  "duration": 4171231802,
+  "duration": 4030356989,
   "status": "passed"
 });
 formatter.match({
@@ -171,7 +171,7 @@ formatter.match({
   "location": "ScenarioSteps.stepPageLoaded(String)"
 });
 formatter.result({
-  "duration": 60871,
+  "duration": 38684,
   "status": "passed"
 });
 formatter.match({
@@ -184,7 +184,7 @@ formatter.match({
   "location": "ScenarioSteps.click(String)"
 });
 formatter.result({
-  "duration": 2839678328,
+  "duration": 7098915359,
   "status": "passed"
 });
 formatter.match({
@@ -201,7 +201,7 @@ formatter.match({
   "location": "ScenarioSteps.checkText(String,String)"
 });
 formatter.result({
-  "duration": 224671410,
+  "duration": 40423458,
   "status": "passed"
 });
 formatter.match({
@@ -218,7 +218,7 @@ formatter.match({
   "location": "ScenarioSteps.checkText(String,String)"
 });
 formatter.result({
-  "duration": 104444378,
+  "duration": 32313962,
   "status": "passed"
 });
 formatter.match({
@@ -235,7 +235,7 @@ formatter.match({
   "location": "ScenarioSteps.fillField(String,String)"
 });
 formatter.result({
-  "duration": 177319469,
+  "duration": 267903467,
   "status": "passed"
 });
 formatter.match({
@@ -252,7 +252,7 @@ formatter.match({
   "location": "ScenarioSteps.fillField(String,String)"
 });
 formatter.result({
-  "duration": 118945896,
+  "duration": 119473256,
   "status": "passed"
 });
 formatter.match({
@@ -269,7 +269,7 @@ formatter.match({
   "location": "ScenarioSteps.fillField(String,String)"
 });
 formatter.result({
-  "duration": 152555217,
+  "duration": 152803251,
   "status": "passed"
 });
 formatter.match({
@@ -286,7 +286,7 @@ formatter.match({
   "location": "ScenarioSteps.fillField(String,String)"
 });
 formatter.result({
-  "duration": 181032600,
+  "duration": 172827531,
   "status": "passed"
 });
 formatter.match({
@@ -303,7 +303,7 @@ formatter.match({
   "location": "ScenarioSteps.fillField(String,String)"
 });
 formatter.result({
-  "duration": 194237623,
+  "duration": 185182636,
   "status": "passed"
 });
 formatter.match({
@@ -320,7 +320,7 @@ formatter.match({
   "location": "ScenarioSteps.fillField(String,String)"
 });
 formatter.result({
-  "duration": 185033018,
+  "duration": 189063019,
   "status": "passed"
 });
 formatter.match({
@@ -337,7 +337,7 @@ formatter.match({
   "location": "ScenarioSteps.fillField(String,String)"
 });
 formatter.result({
-  "duration": 119825965,
+  "duration": 121741980,
   "status": "passed"
 });
 formatter.match({
@@ -350,7 +350,7 @@ formatter.match({
   "location": "ScenarioSteps.click(String)"
 });
 formatter.result({
-  "duration": 111637395,
+  "duration": 108366290,
   "status": "passed"
 });
 formatter.match({
@@ -363,11 +363,11 @@ formatter.match({
   "location": "ScenarioSteps.checkIsEnabled(String)"
 });
 formatter.result({
-  "duration": 30304082,
+  "duration": 35053725,
   "status": "passed"
 });
 formatter.after({
-  "duration": 793071060,
+  "duration": 951077359,
   "status": "passed"
 });
 });

@@ -11,3 +11,4 @@ ru\raiffeisen\steps\DepositSteps.class
 ru\raiffeisen\util\DriverManager.class
 ru\raiffeisen\steps\ScenarioSteps.class
 ru\raiffeisen\util\TestProperties.class
+ru\raiffeisen\reporter\AllureReporter.class
