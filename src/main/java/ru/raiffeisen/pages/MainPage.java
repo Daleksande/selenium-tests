@@ -17,6 +17,10 @@ public class MainPage extends BasePageObject {
     @FieldName(name = "Пункт меню")
     public List<WebElement> mainMenu;
 
+    @FindBy(xpath = "//a[contains(@class,'main-menu__link')]")
+    @FieldName(name = "Подпункт меню")
+    public List<WebElement> subMenu;
+
     @FindBy(xpath = "//*[text()='Да']")
     @FieldName(name = "Подтвердить регион")
     public WebElement acceptRegion;

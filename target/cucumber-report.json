@@ -12,7 +12,7 @@
         "before": [
           {
             "result": {
-              "duration": 10686269780,
+              "duration": 21191272010,
               "status": "passed"
             },
             "match": {
@@ -21,13 +21,13 @@
           }
         ],
         "line": 5,
-        "name": "Оформление страховки",
+        "name": "Расчет ипотеки",
         "description": "",
-        "id": "страхование;оформление-страховки",
+        "id": "страхование;расчет-ипотеки",
         "after": [
           {
             "result": {
-              "duration": 951077359,
+              "duration": 1142992782,
               "status": "passed"
             },
             "match": {
@@ -40,10 +40,10 @@
         "steps": [
           {
             "result": {
-              "duration": 303821333,
+              "duration": 2146806606,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "загружена страница \"MainPage\"",
             "match": {
               "arguments": [
@@ -58,10 +58,10 @@
           },
           {
             "result": {
-              "duration": 465491269,
+              "duration": 1360157149,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "подтвержден регион",
             "match": {
               "location": "MainSteps.acceptRegion()"
@@ -70,15 +70,15 @@
           },
           {
             "result": {
-              "duration": 219557678,
+              "duration": 261049506,
               "status": "passed"
             },
-            "line": 9,
-            "name": "выбран пункт меню \"Страхование\"",
+            "line": 8,
+            "name": "выбран пункт меню \"Ипотека\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Страхование",
+                  "val": "Ипотека",
                   "offset": 19
                 }
               ],
@@ -88,33 +88,33 @@
           },
           {
             "result": {
-              "duration": 4030356989,
+              "duration": 9380228078,
               "status": "passed"
             },
-            "line": 10,
-            "name": "выполнено нажатие на \"В путешествие\"",
+            "line": 9,
+            "name": "выбран подпункт меню \"Ипотечный калькулятор\"",
             "match": {
               "arguments": [
                 {
-                  "val": "В путешествие",
+                  "val": "Ипотечный калькулятор",
                   "offset": 22
                 }
               ],
-              "location": "ScenarioSteps.click(String)"
+              "location": "MainSteps.selectSubMenuItem(String)"
             },
             "keyword": "* "
           },
           {
             "result": {
-              "duration": 38684,
+              "duration": 81351,
               "status": "passed"
             },
-            "line": 11,
-            "name": "загружена страница \"VbcPage\"",
+            "line": 10,
+            "name": "загружена страница \"MortgageCalculator\"",
             "match": {
               "arguments": [
                 {
-                  "val": "VbcPage",
+                  "val": "MortgageCalculator",
                   "offset": 20
                 }
               ],
@@ -124,15 +124,59 @@
           },
           {
             "result": {
-              "duration": 7098915359,
+              "duration": 46879765,
               "status": "passed"
             },
-            "line": 12,
-            "name": "выполнено нажатие на \"Оставить заявку\"",
+            "line": 11,
+            "name": "проверяю, что элемент \"Заголовок первого уровня\" содержит текст \"Ипотечный калькулятор\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Оставить заявку",
+                  "val": "Заголовок первого уровня",
+                  "offset": 23
+                },
+                {
+                  "val": "Ипотечный калькулятор",
+                  "offset": 65
+                }
+              ],
+              "location": "ScenarioSteps.checkText(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 3321893759,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "выпадающий список \"Город\" заполняется значением \"Москва\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Город",
+                  "offset": 19
+                },
+                {
+                  "val": "Москва",
+                  "offset": 49
+                }
+              ],
+              "location": "ScenarioSteps.selectInput(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 5124798045,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "выполнено нажатие на \"Знаю свою ипотечную программу\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Знаю свою ипотечную программу",
                   "offset": 22
                 }
               ],
@@ -142,151 +186,85 @@
           },
           {
             "result": {
-              "duration": 40423458,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "проверяю, что элемент \"Заголовок\" содержит текст \"Форма заявки на страховую программу\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Заголовок",
-                  "offset": 23
-                },
-                {
-                  "val": "Форма заявки на страховую программу",
-                  "offset": 50
-                }
-              ],
-              "location": "ScenarioSteps.checkText(String,String)"
-            },
-            "keyword": "* "
-          },
-          {
-            "result": {
-              "duration": 32313962,
+              "duration": 3172678483,
               "status": "passed"
             },
             "line": 14,
-            "name": "проверяю, что элемент \"Продукт\" содержит текст \"Вояж (Комфорт/Бизнес класс/Первый класс)\"",
+            "name": "выпадающий список \"Вид ипотечной программы\" заполняется значением \"Квартира на вторичном рынке\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Продукт",
-                  "offset": 23
+                  "val": "Вид ипотечной программы",
+                  "offset": 19
                 },
                 {
-                  "val": "Вояж (Комфорт/Бизнес класс/Первый класс)",
-                  "offset": 48
+                  "val": "Квартира на вторичном рынке",
+                  "offset": 67
                 }
               ],
-              "location": "ScenarioSteps.checkText(String,String)"
+              "location": "ScenarioSteps.selectInput(String,String)"
             },
             "keyword": "* "
           },
           {
             "result": {
-              "duration": 267903467,
+              "duration": 3232554489,
               "status": "passed"
             },
             "line": 15,
-            "name": "поле \"Фамилия\" заполняется значением \"Волынин\"",
+            "name": "выпадающий список \"Я являюсь\" заполняется значением \"Новый клиент\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Фамилия",
-                  "offset": 6
+                  "val": "Я являюсь",
+                  "offset": 19
                 },
                 {
-                  "val": "Волынин",
-                  "offset": 38
+                  "val": "Новый клиент",
+                  "offset": 53
                 }
               ],
-              "location": "ScenarioSteps.fillField(String,String)"
+              "location": "ScenarioSteps.selectInput(String,String)"
             },
             "keyword": "* "
           },
           {
             "result": {
-              "duration": 119473256,
+              "duration": 3172614767,
               "status": "passed"
             },
             "line": 16,
-            "name": "поле \"Имя\" заполняется значением \"Илья\"",
+            "name": "выпадающий список \"Уровень доходов подтверждаю\" заполняется значением \"Справка по форме Банка\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Имя",
-                  "offset": 6
+                  "val": "Уровень доходов подтверждаю",
+                  "offset": 19
                 },
                 {
-                  "val": "Илья",
-                  "offset": 34
+                  "val": "Справка по форме Банка",
+                  "offset": 71
                 }
               ],
-              "location": "ScenarioSteps.fillField(String,String)"
+              "location": "ScenarioSteps.selectInput(String,String)"
             },
             "keyword": "* "
           },
           {
             "result": {
-              "duration": 152803251,
+              "duration": 4696919359,
               "status": "passed"
             },
             "line": 17,
-            "name": "поле \"Отчество\" заполняется значением \"Павлович\"",
+            "name": "поле \"В банке возьму\" заполняется значением \"3000000\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Отчество",
+                  "val": "В банке возьму",
                   "offset": 6
                 },
                 {
-                  "val": "Павлович",
-                  "offset": 39
-                }
-              ],
-              "location": "ScenarioSteps.fillField(String,String)"
-            },
-            "keyword": "* "
-          },
-          {
-            "result": {
-              "duration": 172827531,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "поле \"Дата рождения\" заполняется значением \"01.01.1986\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Дата рождения",
-                  "offset": 6
-                },
-                {
-                  "val": "01.01.1986",
-                  "offset": 44
-                }
-              ],
-              "location": "ScenarioSteps.fillField(String,String)"
-            },
-            "keyword": "* "
-          },
-          {
-            "result": {
-              "duration": 185182636,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "поле \"Номер телефона\" заполняется значением \"9031234567\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Номер телефона",
-                  "offset": 6
-                },
-                {
-                  "val": "9031234567",
+                  "val": "3000000",
                   "offset": 45
                 }
               ],
@@ -296,59 +274,59 @@
           },
           {
             "result": {
-              "duration": 189063019,
+              "duration": 3194093694,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "поле \"Первоначальный взнос\" заполняется значением \"3500000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Первоначальный взнос",
+                  "offset": 6
+                },
+                {
+                  "val": "3500000",
+                  "offset": 51
+                }
+              ],
+              "location": "ScenarioSteps.fillField(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 3138182836,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "поле \"Срок кредита\" заполняется значением \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Срок кредита",
+                  "offset": 6
+                },
+                {
+                  "val": "10",
+                  "offset": 43
+                }
+              ],
+              "location": "ScenarioSteps.fillField(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 5105763061,
               "status": "passed"
             },
             "line": 20,
-            "name": "поле \"Электронная почта\" заполняется значением \"test@test.ru\"",
+            "name": "выполнено нажатие на \"Рассчитать\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Электронная почта",
-                  "offset": 6
-                },
-                {
-                  "val": "test@test.ru",
-                  "offset": 48
-                }
-              ],
-              "location": "ScenarioSteps.fillField(String,String)"
-            },
-            "keyword": "* "
-          },
-          {
-            "result": {
-              "duration": 121741980,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "поле \"Проверочный код\" заполняется значением \"test\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Проверочный код",
-                  "offset": 6
-                },
-                {
-                  "val": "test",
-                  "offset": 46
-                }
-              ],
-              "location": "ScenarioSteps.fillField(String,String)"
-            },
-            "keyword": "* "
-          },
-          {
-            "result": {
-              "duration": 108366290,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "выполнено нажатие на \"Согласие на обработку данных\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Согласие на обработку данных",
+                  "val": "Рассчитать",
                   "offset": 22
                 }
               ],
@@ -358,19 +336,87 @@
           },
           {
             "result": {
-              "duration": 35053725,
-              "status": "passed"
+              "duration": 44686702,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[40 656.67] руб.\u003e but was:\u003c[27 430.68] руб.\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat ru.raiffeisen.steps.ScenarioSteps.checkText(ScenarioSteps.java:37)\r\n\tat ✽.* проверяю, что элемент \"Ежемесячный платеж\" содержит текст \"40 656.67 руб.\"(mortgageCalculation.feature:21)\r\n",
+              "status": "failed"
             },
-            "line": 23,
-            "name": "проверяю, что элемент \"Отправить\" доступен",
+            "line": 21,
+            "name": "проверяю, что элемент \"Ежемесячный платеж\" содержит текст \"40 656.67 руб.\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Отправить",
+                  "val": "Ежемесячный платеж",
                   "offset": 23
+                },
+                {
+                  "val": "40 656.67 руб.",
+                  "offset": 59
                 }
               ],
-              "location": "ScenarioSteps.checkIsEnabled(String)"
+              "location": "ScenarioSteps.checkText(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "проверяю, что элемент \"Общая сумма выплат\" содержит текст \"4 789 131.05 руб.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Общая сумма выплат",
+                  "offset": 23
+                },
+                {
+                  "val": "4 789 131.05 руб.",
+                  "offset": 59
+                }
+              ],
+              "location": "ScenarioSteps.checkText(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "проверяю, что элемент \"Cумма выплат по процентам\" содержит текст \"1 789 131.05 руб.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cумма выплат по процентам",
+                  "offset": 23
+                },
+                {
+                  "val": "1 789 131.05 руб.",
+                  "offset": 66
+                }
+              ],
+              "location": "ScenarioSteps.checkText(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "проверяю, что элемент \"Процентная ставка\" содержит текст \"10.25 %\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Процентная ставка",
+                  "offset": 23
+                },
+                {
+                  "val": "10.25 %",
+                  "offset": 58
+                }
+              ],
+              "location": "ScenarioSteps.checkText(String,String)"
             },
             "keyword": "* "
           }
@@ -387,6 +433,6 @@
     "description": "",
     "id": "страхование",
     "keyword": "Функционал",
-    "uri": "insurance.feature"
+    "uri": "mortgageCalculation.feature"
   }
 ]

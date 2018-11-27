@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberRunner" time="26.134" tests="18" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberRunner" time="72.432" tests="20" errors="0" skipped="3" failures="2">
   <properties>
     <property name="idea.version" value="2017.3.5"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -62,22 +62,36 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="* загружена страница &quot;MainPage&quot;" classname="Сценарий: Оформление страховки" time="0.002"/>
-  <testcase name="* подтвержден регион" classname="Сценарий: Оформление страховки" time="0"/>
-  <testcase name="* выбран пункт меню &quot;Страхование&quot;" classname="Сценарий: Оформление страховки" time="0"/>
-  <testcase name="* выполнено нажатие на &quot;В путешествие&quot;" classname="Сценарий: Оформление страховки" time="0"/>
-  <testcase name="* загружена страница &quot;VbcPage&quot;" classname="Сценарий: Оформление страховки" time="0"/>
-  <testcase name="* выполнено нажатие на &quot;Оставить заявку&quot;" classname="Сценарий: Оформление страховки" time="0"/>
-  <testcase name="* проверяю, что элемент &quot;Заголовок&quot; содержит текст &quot;Форма заявки на страховую программу&quot;" classname="Сценарий: Оформление страховки" time="0"/>
-  <testcase name="* проверяю, что элемент &quot;Продукт&quot; содержит текст &quot;Вояж (Комфорт/Бизнес класс/Первый класс)&quot;" classname="Сценарий: Оформление страховки" time="0"/>
-  <testcase name="* поле &quot;Фамилия&quot; заполняется значением &quot;Волынин&quot;" classname="Сценарий: Оформление страховки" time="0"/>
-  <testcase name="* поле &quot;Имя&quot; заполняется значением &quot;Илья&quot;" classname="Сценарий: Оформление страховки" time="0"/>
-  <testcase name="* поле &quot;Отчество&quot; заполняется значением &quot;Павлович&quot;" classname="Сценарий: Оформление страховки" time="0"/>
-  <testcase name="* поле &quot;Дата рождения&quot; заполняется значением &quot;01.01.1986&quot;" classname="Сценарий: Оформление страховки" time="0"/>
-  <testcase name="* поле &quot;Номер телефона&quot; заполняется значением &quot;9031234567&quot;" classname="Сценарий: Оформление страховки" time="0"/>
-  <testcase name="* поле &quot;Электронная почта&quot; заполняется значением &quot;test@test.ru&quot;" classname="Сценарий: Оформление страховки" time="0"/>
-  <testcase name="* поле &quot;Проверочный код&quot; заполняется значением &quot;test&quot;" classname="Сценарий: Оформление страховки" time="0"/>
-  <testcase name="* выполнено нажатие на &quot;Согласие на обработку данных&quot;" classname="Сценарий: Оформление страховки" time="0"/>
-  <testcase name="* проверяю, что элемент &quot;Отправить&quot; доступен" classname="Сценарий: Оформление страховки" time="0"/>
-  <testcase name="Сценарий: Оформление страховки" classname="Сценарий: Оформление страховки" time="0.95"/>
+  <testcase name="* загружена страница &quot;MainPage&quot;" classname="Сценарий: Расчет ипотеки" time="0.002"/>
+  <testcase name="* подтвержден регион" classname="Сценарий: Расчет ипотеки" time="0"/>
+  <testcase name="* выбран пункт меню &quot;Ипотека&quot;" classname="Сценарий: Расчет ипотеки" time="0"/>
+  <testcase name="* выбран подпункт меню &quot;Ипотечный калькулятор&quot;" classname="Сценарий: Расчет ипотеки" time="0"/>
+  <testcase name="* загружена страница &quot;MortgageCalculator&quot;" classname="Сценарий: Расчет ипотеки" time="0"/>
+  <testcase name="* проверяю, что элемент &quot;Заголовок первого уровня&quot; содержит текст &quot;Ипотечный калькулятор&quot;" classname="Сценарий: Расчет ипотеки" time="0"/>
+  <testcase name="* выпадающий список &quot;Город&quot; заполняется значением &quot;Москва&quot;" classname="Сценарий: Расчет ипотеки" time="0"/>
+  <testcase name="* выполнено нажатие на &quot;Знаю свою ипотечную программу&quot;" classname="Сценарий: Расчет ипотеки" time="0"/>
+  <testcase name="* выпадающий список &quot;Вид ипотечной программы&quot; заполняется значением &quot;Квартира на вторичном рынке&quot;" classname="Сценарий: Расчет ипотеки" time="0"/>
+  <testcase name="* выпадающий список &quot;Я являюсь&quot; заполняется значением &quot;Новый клиент&quot;" classname="Сценарий: Расчет ипотеки" time="0"/>
+  <testcase name="* выпадающий список &quot;Уровень доходов подтверждаю&quot; заполняется значением &quot;Справка по форме Банка&quot;" classname="Сценарий: Расчет ипотеки" time="0"/>
+  <testcase name="* поле &quot;В банке возьму&quot; заполняется значением &quot;3000000&quot;" classname="Сценарий: Расчет ипотеки" time="0"/>
+  <testcase name="* поле &quot;Первоначальный взнос&quot; заполняется значением &quot;3500000&quot;" classname="Сценарий: Расчет ипотеки" time="0"/>
+  <testcase name="* поле &quot;Срок кредита&quot; заполняется значением &quot;10&quot;" classname="Сценарий: Расчет ипотеки" time="0"/>
+  <testcase name="* выполнено нажатие на &quot;Рассчитать&quot;" classname="Сценарий: Расчет ипотеки" time="0"/>
+  <testcase name="* проверяю, что элемент &quot;Ежемесячный платеж&quot; содержит текст &quot;40 656.67 руб.&quot;" classname="Сценарий: Расчет ипотеки" time="0.008">
+    <failure message="expected:&lt;[40 656.67] руб.&gt; but was:&lt;[27 430.68] руб.&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[40 656.67] руб.> but was:<[27 430.68] руб.>
+]]></failure>
+  </testcase>
+  <testcase name="Сценарий: Расчет ипотеки" classname="Сценарий: Расчет ипотеки" time="0.008">
+    <failure message="expected:&lt;[40 656.67] руб.&gt; but was:&lt;[27 430.68] руб.&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[40 656.67] руб.> but was:<[27 430.68] руб.>
+]]></failure>
+  </testcase>
+  <testcase name="* проверяю, что элемент &quot;Общая сумма выплат&quot; содержит текст &quot;4 789 131.05 руб.&quot;" classname="Сценарий: Расчет ипотеки" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* проверяю, что элемент &quot;Cумма выплат по процентам&quot; содержит текст &quot;1 789 131.05 руб.&quot;" classname="Сценарий: Расчет ипотеки" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* проверяю, что элемент &quot;Процентная ставка&quot; содержит текст &quot;10.25 %&quot;" classname="Сценарий: Расчет ипотеки" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>

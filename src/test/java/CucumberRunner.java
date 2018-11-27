@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = {"src/test/resources"}, glue = {"ru.raiffeisen"},
                 plugin = {"json:target/cucumber-report.json",
                           "pretty",
-                          "html:target/cucumber-reports",
+                          "ru.raiffeisen.reporter.AllureReporter",
                           "rerun:rerun.txt"},
                 tags = {"@web"})
 public class CucumberRunner {

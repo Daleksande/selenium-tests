@@ -23,9 +23,10 @@ public abstract class BasePageObject {
         PageFactory.initElements(DriverManager.getDriver(), this);
     }
 
-    public void fillField(WebElement field, String value){
+    public void fillField(WebElement field, String value) throws InterruptedException {
         field.clear();
         field.sendKeys(value);
+        Thread.sleep(3000);
         field.sendKeys(Keys.TAB);
     }
 
@@ -53,9 +54,11 @@ public abstract class BasePageObject {
         Assert.fail("Не найден элмент коллеции - " + itemName);
     }
 
-    public void selectInput(WebElement element, String value) {
+    public void selectInput(String name, String value) throws Exception  {
+        WebElement element = getField(name);
+        Thread.sleep(3000);
         element.click();
-        element.findElement(By.xpath(".//div[contains(@class,'choices__item')][contains(text(),'" + value + "')]")).click();
+        element.findElement(By.xpath("//li/div[contains(text(),'" + value + "')]")).click();
     }
 
     public void scrollAndClick(WebElement element) {

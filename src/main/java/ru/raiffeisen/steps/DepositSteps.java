@@ -31,11 +31,11 @@ public class DepositSteps {
         Assert.assertTrue("Кнопка - "+ name +" не активна", depositPage.getField(name).isEnabled());
     }
 
-    @When("выпадающий список \"(.*)\" заполняется значением \"(.*)\"")
-    public void selectInput(String field, String value) throws Exception {
-        WebElement element = depositPage.getField(field);
-        depositPage.selectInput(element, value);
-    }
+//    @When("выпадающий список \"(.*)\" заполняется значением \"(.*)\"")
+//    public void selectInput(String field, String value) throws Exception {
+//        WebElement element = depositPage.getField(field);
+//        depositPage.selectInput(element, value);
+//    }
 
     @When("поле \"(.*)\" присутствует")
     public void checkFieldIsPresent(String name)throws Exception{
