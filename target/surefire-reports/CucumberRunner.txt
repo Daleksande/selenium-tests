@@ -1,10 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: CucumberRunner
 -------------------------------------------------------------------------------
-Tests run: 20, Failures: 2, Errors: 0, Skipped: 3, Time elapsed: 72.432 sec <<< FAILURE! - in CucumberRunner
-* проверяю, что элемент "Ежемесячный платеж" содержит текст "40 656.67 руб."(Сценарий: Расчет ипотеки)  Time elapsed: 0.008 sec  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[40 656.67] руб.> but was:<[27 430.68] руб.>
-
-Сценарий: Расчет ипотеки  Time elapsed: 0.008 sec  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[40 656.67] руб.> but was:<[27 430.68] руб.>
-
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 34.308 sec - in CucumberRunner

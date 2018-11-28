@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberRunner" time="72.432" tests="20" errors="0" skipped="3" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberRunner" time="34.308" tests="20" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.5"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -77,21 +77,9 @@
   <testcase name="* поле &quot;Первоначальный взнос&quot; заполняется значением &quot;3500000&quot;" classname="Сценарий: Расчет ипотеки" time="0"/>
   <testcase name="* поле &quot;Срок кредита&quot; заполняется значением &quot;10&quot;" classname="Сценарий: Расчет ипотеки" time="0"/>
   <testcase name="* выполнено нажатие на &quot;Рассчитать&quot;" classname="Сценарий: Расчет ипотеки" time="0"/>
-  <testcase name="* проверяю, что элемент &quot;Ежемесячный платеж&quot; содержит текст &quot;40 656.67 руб.&quot;" classname="Сценарий: Расчет ипотеки" time="0.008">
-    <failure message="expected:&lt;[40 656.67] руб.&gt; but was:&lt;[27 430.68] руб.&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[40 656.67] руб.> but was:<[27 430.68] руб.>
-]]></failure>
-  </testcase>
-  <testcase name="Сценарий: Расчет ипотеки" classname="Сценарий: Расчет ипотеки" time="0.008">
-    <failure message="expected:&lt;[40 656.67] руб.&gt; but was:&lt;[27 430.68] руб.&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[40 656.67] руб.> but was:<[27 430.68] руб.>
-]]></failure>
-  </testcase>
-  <testcase name="* проверяю, что элемент &quot;Общая сумма выплат&quot; содержит текст &quot;4 789 131.05 руб.&quot;" classname="Сценарий: Расчет ипотеки" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="* проверяю, что элемент &quot;Cумма выплат по процентам&quot; содержит текст &quot;1 789 131.05 руб.&quot;" classname="Сценарий: Расчет ипотеки" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="* проверяю, что элемент &quot;Процентная ставка&quot; содержит текст &quot;10.25 %&quot;" classname="Сценарий: Расчет ипотеки" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="* проверяю, что элемент &quot;Ежемесячный платеж&quot; содержит текст &quot;40 656.67 руб.&quot;" classname="Сценарий: Расчет ипотеки" time="0"/>
+  <testcase name="* проверяю, что элемент &quot;Общая сумма выплат&quot; содержит текст &quot;4 836 819.11 руб.&quot;" classname="Сценарий: Расчет ипотеки" time="0"/>
+  <testcase name="* проверяю, что элемент &quot;Cумма выплат по процентам&quot; содержит текст &quot;1 836 819.11 руб.&quot;" classname="Сценарий: Расчет ипотеки" time="0"/>
+  <testcase name="* проверяю, что элемент &quot;Процентная ставка&quot; содержит текст &quot;10.49 %&quot;" classname="Сценарий: Расчет ипотеки" time="0"/>
+  <testcase name="Сценарий: Расчет ипотеки" classname="Сценарий: Расчет ипотеки" time="1.222"/>
 </testsuite>

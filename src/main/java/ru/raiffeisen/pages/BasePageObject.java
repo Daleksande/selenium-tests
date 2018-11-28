@@ -24,9 +24,13 @@ public abstract class BasePageObject {
     }
 
     public void fillField(WebElement field, String value) throws InterruptedException {
-        field.clear();
+//        field.clear();
+//        field.sendKeys(value);
+//        field.sendKeys(Keys.TAB);
+        field.click();
+        field.sendKeys(Keys.chord(Keys.CONTROL, "a"));
+        field.sendKeys(Keys.DELETE);
         field.sendKeys(value);
-        Thread.sleep(3000);
         field.sendKeys(Keys.TAB);
     }
 
@@ -54,9 +58,25 @@ public abstract class BasePageObject {
         Assert.fail("Не найден элмент коллеции - " + itemName);
     }
 
+    public boolean hasClass(WebElement element) {
+        String classes = element.getAttribute("class");
+        for (String c : classes.split(" ")) {
+            if (c.equals("loading")) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     public void selectInput(String name, String value) throws Exception  {
         WebElement element = getField(name);
-        Thread.sleep(3000);
+//        Thread.sleep(3000);
+        boolean isDisplay = true;
+        int i = 0;
+        while(isDisplay == true || i == 100) {
+            isDisplay =  hasClass(element.findElement(By.xpath("//div[contains(@class,'helpers-params')]")));
+            i = i++;
+        }
         element.click();
         element.findElement(By.xpath("//li/div[contains(text(),'" + value + "')]")).click();
     }

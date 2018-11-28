@@ -12,7 +12,7 @@
         "before": [
           {
             "result": {
-              "duration": 21191272010,
+              "duration": 14280829735,
               "status": "passed"
             },
             "match": {
@@ -27,7 +27,7 @@
         "after": [
           {
             "result": {
-              "duration": 1142992782,
+              "duration": 926260200,
               "status": "passed"
             },
             "match": {
@@ -40,7 +40,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2146806606,
+              "duration": 2870829484,
               "status": "passed"
             },
             "line": 6,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 1360157149,
+              "duration": 170979784,
               "status": "passed"
             },
             "line": 7,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 261049506,
+              "duration": 139292736,
               "status": "passed"
             },
             "line": 8,
@@ -88,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 9380228078,
+              "duration": 2999183647,
               "status": "passed"
             },
             "line": 9,
@@ -106,7 +106,7 @@
           },
           {
             "result": {
-              "duration": 81351,
+              "duration": 51769,
               "status": "passed"
             },
             "line": 10,
@@ -124,7 +124,7 @@
           },
           {
             "result": {
-              "duration": 46879765,
+              "duration": 120871013,
               "status": "passed"
             },
             "line": 11,
@@ -146,7 +146,7 @@
           },
           {
             "result": {
-              "duration": 3321893759,
+              "duration": 391120572,
               "status": "passed"
             },
             "line": 12,
@@ -168,7 +168,7 @@
           },
           {
             "result": {
-              "duration": 5124798045,
+              "duration": 3132414883,
               "status": "passed"
             },
             "line": 13,
@@ -186,7 +186,7 @@
           },
           {
             "result": {
-              "duration": 3172678483,
+              "duration": 198589044,
               "status": "passed"
             },
             "line": 14,
@@ -208,7 +208,7 @@
           },
           {
             "result": {
-              "duration": 3232554489,
+              "duration": 1083650962,
               "status": "passed"
             },
             "line": 15,
@@ -230,7 +230,7 @@
           },
           {
             "result": {
-              "duration": 3172614767,
+              "duration": 1138665822,
               "status": "passed"
             },
             "line": 16,
@@ -252,7 +252,7 @@
           },
           {
             "result": {
-              "duration": 4696919359,
+              "duration": 560729337,
               "status": "passed"
             },
             "line": 17,
@@ -274,7 +274,7 @@
           },
           {
             "result": {
-              "duration": 3194093694,
+              "duration": 248511220,
               "status": "passed"
             },
             "line": 18,
@@ -296,7 +296,7 @@
           },
           {
             "result": {
-              "duration": 3138182836,
+              "duration": 230347773,
               "status": "passed"
             },
             "line": 19,
@@ -318,7 +318,7 @@
           },
           {
             "result": {
-              "duration": 5105763061,
+              "duration": 3099380140,
               "status": "passed"
             },
             "line": 20,
@@ -336,9 +336,8 @@
           },
           {
             "result": {
-              "duration": 44686702,
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[40 656.67] руб.\u003e but was:\u003c[27 430.68] руб.\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat ru.raiffeisen.steps.ScenarioSteps.checkText(ScenarioSteps.java:37)\r\n\tat ✽.* проверяю, что элемент \"Ежемесячный платеж\" содержит текст \"40 656.67 руб.\"(mortgageCalculation.feature:21)\r\n",
-              "status": "failed"
+              "duration": 55882413,
+              "status": "passed"
             },
             "line": 21,
             "name": "проверяю, что элемент \"Ежемесячный платеж\" содержит текст \"40 656.67 руб.\"",
@@ -359,10 +358,11 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 30383157,
+              "status": "passed"
             },
             "line": 22,
-            "name": "проверяю, что элемент \"Общая сумма выплат\" содержит текст \"4 789 131.05 руб.\"",
+            "name": "проверяю, что элемент \"Общая сумма выплат\" содержит текст \"4 836 819.11 руб.\"",
             "match": {
               "arguments": [
                 {
@@ -370,7 +370,7 @@
                   "offset": 23
                 },
                 {
-                  "val": "4 789 131.05 руб.",
+                  "val": "4 836 819.11 руб.",
                   "offset": 59
                 }
               ],
@@ -380,10 +380,11 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 29958198,
+              "status": "passed"
             },
             "line": 23,
-            "name": "проверяю, что элемент \"Cумма выплат по процентам\" содержит текст \"1 789 131.05 руб.\"",
+            "name": "проверяю, что элемент \"Cумма выплат по процентам\" содержит текст \"1 836 819.11 руб.\"",
             "match": {
               "arguments": [
                 {
@@ -391,7 +392,7 @@
                   "offset": 23
                 },
                 {
-                  "val": "1 789 131.05 руб.",
+                  "val": "1 836 819.11 руб.",
                   "offset": 66
                 }
               ],
@@ -401,10 +402,11 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 30958303,
+              "status": "passed"
             },
             "line": 24,
-            "name": "проверяю, что элемент \"Процентная ставка\" содержит текст \"10.25 %\"",
+            "name": "проверяю, что элемент \"Процентная ставка\" содержит текст \"10.49 %\"",
             "match": {
               "arguments": [
                 {
@@ -412,7 +414,7 @@
                   "offset": 23
                 },
                 {
-                  "val": "10.25 %",
+                  "val": "10.49 %",
                   "offset": 58
                 }
               ],

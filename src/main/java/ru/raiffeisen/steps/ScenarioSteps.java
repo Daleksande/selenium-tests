@@ -20,7 +20,7 @@ public class ScenarioSteps {
         Class example = Class.forName("ru.raiffeisen.pages." + currentPageName);
         BasePageObject page = (BasePageObject) example.newInstance();
         page.click(name);
-        Thread.sleep(5000);
+        Thread.sleep(3000);
     }
 
     @When("выпадающий список \"(.*)\" заполняется значением \"(.*)\"")
